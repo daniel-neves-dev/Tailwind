@@ -8,6 +8,14 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
+    extend:{
+      backgroundImage:{
+        'cover': "url('hero-image-1.png')"
+      },
+      height:{
+        '96':'450px'
+      }
+    },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },

@@ -13,13 +13,13 @@ module.exports = {
         'cover': "url('hero-image-1.png')",
         height: {
           '96': '450px'
-        },
+        }
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
-
     },
+
     plugins: [
       require('@tailwindcss/forms'),
       require('@tailwindcss/aspect-ratio'),

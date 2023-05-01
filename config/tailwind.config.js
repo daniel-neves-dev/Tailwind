@@ -8,22 +8,23 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
-    extend:{
-      backgroundImage:{
+    extend: {
+      backgroundImage: {
         'cover': "url('hero-image-1.png')",
-      height:{
-        '96':'450px'
+        height: {
+          '96': '450px'
+        },
       },
-    },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
 
-  },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/container-queries'),
-  ]
+    },
+    plugins: [
+      require('@tailwindcss/forms'),
+      require('@tailwindcss/aspect-ratio'),
+      require('@tailwindcss/typography'),
+      require('@tailwindcss/container-queries'),
+    ]
+  }
 }

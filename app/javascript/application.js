@@ -2,3 +2,4 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "tailwindcss"
+import "@heroicons/24/outline"

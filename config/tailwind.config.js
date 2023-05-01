@@ -10,11 +10,10 @@ module.exports = {
   theme: {
     extend:{
       backgroundImage:{
-        'cover': "url('hero-image-1.png')"
-      },
+        'cover': "url('hero-image-1.png')",
       height:{
         '96':'450px'
-      }
+      },
     },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],

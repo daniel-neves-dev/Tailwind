@@ -154,6 +154,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.5.0)
       loofah (~> 2.19, >= 2.19.1)
+    rails_heroicon (2.1.2)
+      actionview
+      railties
     railties (7.0.4.3)
       actionpack (= 7.0.4.3)
       activesupport (= 7.0.4.3)
@@ -228,6 +231,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
+  rails_heroicon (~> 2.1, >= 2.1.2)
   sassc-rails
   selenium-webdriver
   sprockets-rails
